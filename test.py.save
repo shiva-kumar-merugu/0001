@@ -1,0 +1,9 @@
+from selenium import webdriver
+import time
+from time import sleep
+
+driver = webdriver.Firefox()
+driver.get("http://twitter.com")
+time.sleep(30)
+driver.quit()
+print("Testing has been completed")
